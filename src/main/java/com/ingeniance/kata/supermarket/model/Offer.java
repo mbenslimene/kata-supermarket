@@ -1,8 +1,19 @@
 package com.ingeniance.kata.supermarket.model;
 
+
+/**
+ * Represents the product offer  .
+ *
+ * @author mBenSlimene
+ */
 public class Offer {
 	private int productId;
-	
+
+	/**
+	 * Represents a unit of product
+	 * The product can be sold by unit or weight
+	 *
+	 */
 	 public enum UnitProduct {
 	        WEIGHT, PIECE
 	    }
